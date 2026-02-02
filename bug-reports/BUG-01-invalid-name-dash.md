@@ -1,37 +1,37 @@
-# Bug Report
+# BUG-01 — Registration accepts invalid name character "-" (data validation)
 
-Title:
-System allows account creation with "-" as First Name and Last Name
+## Summary
+The application allows creating an account where **First Name** and **Last Name** are set to `-`.
+This can pollute user data and impact invoices, reporting, and customer records.
 
-Environment:
-macOS, Chrome, OpenCart Demo
+## Environment
+- Website: https://demo.opencart.com/
+- Browser: Chrome
+- OS: macOS
+- Area: Register Account
 
-Precondition:
-User is on Register Account page
+## Preconditions
+- User is on **Register Account** page
 
-Steps to Reproduce:
-1. Open https://demo.opencart.com
-2. Click "My Account"
-3. Click "Register"
-4. Enter "-" in First Name
-5. Enter "-" in Last Name
-6. Enter valid email and password
-7. Click "Continue"
+## Steps to Reproduce
+1. Open https://demo.opencart.com/
+2. Go to **My Account** → **Register**
+3. Enter `-` in **First Name**
+4. Enter `-` in **Last Name**
+5. Fill other required fields with valid values
+6. Submit the form (**Continue**)
 
-Expected Result:
-System should reject invalid names and show validation error
+## Actual Result
+Account is created successfully with `-` as name values.
 
-Actual Result:
-Account is created successfully with "-" as name
+## Expected Result
+The system should reject invalid name characters and show a clear validation message.
 
-Severity:
-Medium
+## Severity
+Medium (Data integrity issue)
 
-Priority:
+## Priority
 P2
 
-Attachments:
-BUG-01-invalid-name.png
-
-Notes:
-Invalid user data may affect invoices, orders, and reports
+## Evidence
+- /evidence/BUG-01.png

@@ -1,37 +1,37 @@
-# Bug Report
+# BUG-03 — Registration accepts special character "/" in name fields (data validation)
 
-Title:
-System allows special character "/" in First Name and Last Name
+## Summary
+The application allows account creation with `/` in First Name and Last Name.
+This can cause data quality issues and potential downstream processing problems.
 
-Environment:
-macOS, Chrome, OpenCart Demo
+## Environment
+- Website: https://demo.opencart.com/
+- Browser: Chrome
+- OS: macOS
+- Area: Register Account
 
-Precondition:
-User is on Register Account page
+## Preconditions
+- User is on **Register Account** page
 
-Steps to Reproduce:
-1. Open https://demo.opencart.com
-2. Click "My Account"
-3. Click "Register"
-4. Enter "/" in First Name
-5. Enter "/" in Last Name
-6. Enter valid email and password
-7. Click "Continue"
+## Steps to Reproduce
+1. Open https://demo.opencart.com/
+2. Go to **My Account** → **Register**
+3. Enter `/` in **First Name**
+4. Enter `/` in **Last Name**
+5. Fill other required fields with valid values
+6. Submit the form (**Continue**)
 
-Expected Result:
-System should reject special characters in name fields
+## Actual Result
+Account is created successfully with `/` as name values.
 
-Actual Result:
-Account is created successfully with "/" as name
+## Expected Result
+The system should reject special characters in name fields and show a validation message.
 
-Severity:
-High
+## Severity
+Medium (Data integrity / potential security surface)
 
-Priority:
-P1
+## Priority
+P2
 
-Attachments:
-BUG-03-slash-name.png
-
-Notes:
-Special characters may break backend processing and reports
+## Evidence
+- /evidence/BUG-03.png

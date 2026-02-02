@@ -1,36 +1,36 @@
-# Bug Report
+# BUG-05 — Registration accepts unrealistic email format (weak email validation)
 
-Title:
-System allows weak email format "2@a.c" during registration
+## Summary
+The system allows registering accounts using minimal/unrealistic email formats (e.g., `2@a.c`).
+Even if technically valid, it increases spam/fake account risk and harms communications reliability.
 
-Environment:
-macOS, Chrome, OpenCart Demo
+## Environment
+- Website: https://demo.opencart.com/
+- Browser: Chrome
+- OS: macOS
+- Area: Register Account
 
-Precondition:
-User is on Register Account page
+## Preconditions
+- User is on **Register Account** page
 
-Steps to Reproduce:
-1. Open https://demo.opencart.com
-2. Click "My Account"
-3. Click "Register"
-4. Enter valid name and password
-5. Enter email: 2@a.c
-6. Submit form
+## Steps to Reproduce
+1. Open https://demo.opencart.com/
+2. Go to **My Account** → **Register**
+3. Fill required fields with valid values
+4. Enter email: `2@a.c`
+5. Submit the form (**Continue**)
 
-Expected Result:
-System should reject weak or unrealistic email format
+## Actual Result
+Account is created successfully.
 
-Actual Result:
-Account is created successfully with email "2@a.c"
+## Expected Result
+The system should enforce stronger validation and/or email verification (confirmation step).
 
-Severity:
-Medium
+## Severity
+Medium (Data quality / abuse risk)
 
-Priority:
+## Priority
 P2
 
-Attachments:
-BUG-05-weak-email.png
-
-Notes:
-Weak email validation may allow fake accounts and spam
+## Evidence
+- /evidence/BUG-05.png

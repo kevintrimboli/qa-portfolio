@@ -4,8 +4,8 @@ This folder contains screenshots and videos used as proof for reported bugs and 
 Each file is referenced from the corresponding bug report and Jira project documentation.
 
 ## Naming convention
-- BUG-XX-description.png (OpenCart bug-reports)
-- PXX-BUG-YY-description.(png|mp4) (Project-based Jira portfolio)
+- `BUG-XX.png` → OpenCart standalone bug-reports
+- `PXX-BUG-YY-description.(png|mp4)` → Project-based Jira portfolio
 
 ## Evidence index
 

@@ -187,3 +187,20 @@ Environment (example):
 
 **Expected Result**
 - Checkout page opens (or a clear message is shown if checkout is restricted in demo)
+
+---
+
+## Traceability (Test Cases → Bugs)
+
+This section links high-level OpenCart test cases to discovered defects.
+
+- **TC-01 Register with valid data** → related: BUG-01, BUG-03, BUG-05 (validation/data quality)
+- **TC-02 Register with existing email** → (no bug logged yet — candidate for future testing)
+- **TC-06 Search existing product** → (no bug logged yet)
+- **TC-08 Add product to cart** → related: BUG-06
+- **TC-12 Open checkout** → (no bug logged yet)
+
+Note: Some defects were found during exploratory testing (rate limiting), and map to multiple flows:
+- Registration flow → BUG-02
+- Browsing flow → BUG-04
+- General navigation refresh → BUG-07

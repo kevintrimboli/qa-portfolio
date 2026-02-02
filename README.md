@@ -15,6 +15,23 @@ Currently transitioning into professional QA roles.
 
 ---
 
+## ⭐ Portfolio Index (Fast Review)
+
+**End-to-end projects (Jira → Evidence → Documentation):**
+- **Project 01 — SauceDemo | Checkout Input Validation**  
+  Jira: **SCRUM-5** · Evidence: `evidence/P01-BUG-01-checkout-invalid-input-validation.mp4` · Docs: `jira/projects/project-01-checkout/`
+
+- **Project 02 — ExpandTesting | Registration Weak Password**  
+  Jira: **SCRUM-8** · Evidence: `evidence/P02-BUG-01-register-accepts-weak-password.png` · Docs: `jira/projects/project-02-registration/`
+
+- **Project 03 — RealWorld Conduit | Sign In stuck (Incognito)**  
+  Jira: **SCRUM-9** · Evidence: `evidence/P03-BUG-02-signin-stuck-valid-credentials-incognito.mp4` · Docs: `jira/projects/project-03-realworld-auth/`
+
+**Standalone bug reports (OpenCart):**
+- 7 defects documented in `bug-reports/` with evidence in `evidence/` (see `bug-reports/README.md`)
+
+---
+
 ## 🎯 Objective
 Build strong foundations and real-world experience in:
 - Manual Testing
@@ -46,42 +63,15 @@ This repository includes manual QA projects across multiple demo applications:
 ---
 
 ## 📁 Repository Structure
-
-- `bug-reports/` → OpenCart defects (standalone bug reports)
+- `bug-reports/` → OpenCart defects (standalone bug reports + index)
 - `detailed-reports/` → deeper investigations / risk analysis
 - `evidence/` → screenshots and videos (proof)
 - `jira/` → Jira learning notes + project-based documentation
   - `jira/projects/` → Project 01–03 (full traceability)
-- `test-cases/` → manual test cases (OpenCart)
+- `test-cases/` → manual test cases (OpenCart) + traceability section
 - `test-plan/` → test planning documents (OpenCart)
 - `sdlc-stlc/` → SDLC & STLC notes
 - `project-under-test/` → system context
-
----
-
-## 🧪 Jira Projects (End-to-End Documentation)
-
-### Project 01 — Checkout Input Validation (SauceDemo)
-- Focus: Checkout “Your Information” validation, negative testing
-- Jira: SCRUM-5
-- Evidence: video (see `evidence/`)
-- Docs: `jira/projects/project-01-checkout/`
-
-### Project 02 — Registration Weak Password (ExpandTesting)
-- Focus: Registration validation (weak password accepted)
-- Jira: SCRUM-8
-- Evidence: screenshot (see `evidence/`)
-- Docs: `jira/projects/project-02-registration/`
-
-### Project 03 — Sign In Stuck (RealWorld Conduit)
-- Focus: Authentication flow (Sign in stuck in Incognito with valid credentials)
-- Jira: SCRUM-9
-- Evidence: video (see `evidence/`)
-- Docs: `jira/projects/project-03-realworld-auth/`
-
-Note:
-Jira tickets are hosted in a private Jira instance, as in real company environments.
-This repo provides full reproduction steps and evidence for review.
 
 ---
 
@@ -92,6 +82,9 @@ Standalone bug reports for OpenCart are stored in `bug-reports/` and include:
 - Expected vs actual
 - Severity / priority
 - Linked evidence
+
+See:
+- `bug-reports/README.md`
 
 ---
 

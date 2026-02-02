@@ -13,8 +13,7 @@
 - Browser: Chrome
 - Mode: Incognito
 - OS: macOS
-- Sign in URL: https://react-redux.realworld.io/\#/login
-
+- Sign in URL: https://react-redux.realworld.io/#/login
 ### Preconditions
 - User has an existing account (registered successfully)
 
