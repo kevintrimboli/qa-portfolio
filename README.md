@@ -1,6 +1,6 @@
 # QA Portfolio — Kevin Trimboli
 
-Manual & Automation QA Portfolio
+Manual & Automation QA Portfolio (Work-in-progress)
 
 ---
 
@@ -28,132 +28,74 @@ Actively preparing for junior / entry-level QA positions.
 
 ---
 
-## 🧪 Project Under Test
-OpenCart Demo Store  
-https://demo.opencart.com/
+## 🧪 Apps Under Test (Portfolio)
+This repository includes manual QA projects across multiple demo applications:
 
-E-commerce demo platform used to practice real QA workflows:
-test design, execution, bug discovery, Jira reporting, and documentation.
+- **OpenCart Demo Store** — https://demo.opencart.com/  
+  Used for general manual testing practice, bug reporting, and risk analysis.
+
+- **SauceDemo** — https://www.saucedemo.com/  
+  Used for end-to-end checkout validation and negative testing.
+
+- **ExpandTesting Practice** — https://practice.expandtesting.com/  
+  Used for form validation testing.
+
+- **RealWorld Conduit (React + Redux)** — https://react-redux.realworld.io/  
+  Used for authentication flow testing.
 
 ---
 
 ## 📁 Repository Structure
 
-qa-portfolio/
-├── bug-reports/        → Documented defects (manual QA)
-├── detailed-reports/   → Risk analysis and deeper investigations
-├── evidence/           → Screenshots and videos used as proof
-├── jira/               → Jira learning material and project-based documentation
-│   └── projects/
-│       └── project-01-checkout/
-├── test-cases/         → Manual test cases
-├── test-plan/          → Test planning documents
-├── sdlc-stlc/          → SDLC and STLC documentation
-├── project-under-test/ → System overview and context
-└── README.md           → Portfolio overview
+- `bug-reports/` → OpenCart defects (standalone bug reports)
+- `detailed-reports/` → deeper investigations / risk analysis
+- `evidence/` → screenshots and videos (proof)
+- `jira/` → Jira learning notes + project-based documentation
+  - `jira/projects/` → Project 01–03 (full traceability)
+- `test-cases/` → manual test cases (OpenCart)
+- `test-plan/` → test planning documents (OpenCart)
+- `sdlc-stlc/` → SDLC & STLC notes
+- `project-under-test/` → system context
 
 ---
 
-## 🧪 QA Projects
+## 🧪 Jira Projects (End-to-End Documentation)
 
-### Project 01 – Checkout Input Validation
-Complete manual QA project covering:
-- Test case design
-- Bug discovery
-- Jira bug reporting
-- Video evidence
-- Traceability (Test Case → Bug → Evidence)
+### Project 01 — Checkout Input Validation (SauceDemo)
+- Focus: Checkout “Your Information” validation, negative testing
+- Jira: SCRUM-5
+- Evidence: video (see `evidence/`)
+- Docs: `jira/projects/project-01-checkout/`
 
-Jira Bug: SCRUM-5  
-Feature: Checkout – Customer Information  
-Focus: Input validation and negative testing  
+### Project 02 — Registration Weak Password (ExpandTesting)
+- Focus: Registration validation (weak password accepted)
+- Jira: SCRUM-8
+- Evidence: screenshot (see `evidence/`)
+- Docs: `jira/projects/project-02-registration/`
 
-Project documentation:
-jira/projects/project-01-checkout/
+### Project 03 — Sign In Stuck (RealWorld Conduit)
+- Focus: Authentication flow (Sign in stuck in Incognito with valid credentials)
+- Jira: SCRUM-9
+- Evidence: video (see `evidence/`)
+- Docs: `jira/projects/project-03-realworld-auth/`
+
+Note:
+Jira tickets are hosted in a private Jira instance, as in real company environments.
+This repo provides full reproduction steps and evidence for review.
 
 ---
 
-## 🐞 Bug Reports
-
-All defects are documented with:
+## 🐞 OpenCart Bug Reports
+Standalone bug reports for OpenCart are stored in `bug-reports/` and include:
 - Preconditions
-- Steps to Reproduce
-- Expected Result
-- Actual Result
-- Severity
-- Priority
-- Linked Evidence
-- Jira reference (when applicable)
-
-Folder:
-bug-reports/
-
-Examples include:
-- Invalid characters accepted in input fields
-- Weak email validation
-- Rate limiting issues
-- Input sanitization problems
-
----
-
-## 📸 Evidence
-
-Each reported bug includes screenshots or video recordings
-demonstrating step-by-step reproduction.
-
-Folder:
-evidence/
-
-Evidence is linked directly from bug reports and Jira documentation.
-
----
-
-## 📋 Test Plan
-
-Includes:
-- Scope
-- Objectives
-- Risks
-- Entry criteria
-- Exit criteria
-- Test strategy
-
-Folder:
-test-plan/
-
----
-
-## ✅ Test Cases
-
-Manual test scenarios covering:
-- User registration
-- Login
-- Product browsing
-- Cart management
-- Checkout process
-- Input validation
-- Negative testing
-
-Folder:
-test-cases/
-
----
-
-## 🔁 SDLC & STLC
-
-Documentation and understanding of:
-- Software Development Life Cycle
-- Software Testing Life Cycle
-- Shift-left testing
-- QA involvement from requirements stage
-
-Folder:
-sdlc-stlc/
+- Steps to reproduce
+- Expected vs actual
+- Severity / priority
+- Linked evidence
 
 ---
 
 ## 🤖 Automation (In Progress)
-
 Currently learning and practicing:
 - Python
 - Selenium
@@ -164,25 +106,11 @@ Automation scripts and frameworks will be added progressively.
 
 ---
 
-## 📈 Roadmap
-
-Next steps:
-- Expand manual test coverage
-- Add automation frameworks
-- Improve API testing
-- Add SQL validations
-- Learn CI/CD fundamentals
-- Practice performance testing
-
----
-
 ## 📬 Contact
-
 GitHub: https://github.com/kevintrimboli  
-Email: trimboli.it@gmail.com  
+Email: trimboli.it@gmail.com
 
 ---
 
 This repository documents hands-on QA practice, real bug discovery,
 and continuous professional learning.
-It is updated regularly.

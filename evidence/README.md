@@ -1,17 +1,28 @@
-# Evidence Folder
+# Evidence Repository
 
-This folder contains screenshots and videos used as proof for reported bugs.
+This folder contains screenshots and videos used as proof for reported bugs and executed test cases.
+Each file is referenced from the corresponding bug report and Jira project documentation.
 
-Each file is linked in the corresponding bug report.
+## Naming convention
+- BUG-XX-description.png (OpenCart bug-reports)
+- PXX-BUG-YY-description.(png|mp4) (Project-based Jira portfolio)
 
-Naming format:
-BUG-XX-description.png
+## Evidence index
 
-Example:
-BUG-01-invalid-name.png
-BUG-02-rate-limit.png
-BUG-03-slash-name.png
-BUG-04-rate-limit-browsing.png
+### OpenCart bug-reports (screenshots)
+- BUG-01.png
+- BUG-02.png
+- BUG-03.png
+- BUG-04.png
+- BUG-05.png
+- BUG-06.png
+- BUG-07.png
 
-## Project 01 – Checkout Validation
-- P01-BUG-01-checkout-invalid-input-validation.mp4 (linked to Jira SCRUM-5)
+### Project 01 — Checkout Input Validation (SauceDemo)
+- P01-BUG-01-checkout-invalid-input-validation.mp4 (Jira: SCRUM-5)
+
+### Project 02 — Registration Weak Password (ExpandTesting)
+- P02-BUG-01-register-accepts-weak-password.png (Jira: SCRUM-8)
+
+### Project 03 — Sign In Stuck (RealWorld Conduit)
+- P03-BUG-02-signin-stuck-valid-credentials-incognito.mp4 (Jira: SCRUM-9)
