@@ -10,10 +10,13 @@ Manual & Automation QA Portfolio
 - Location: Italy (EU)
 - Background: 20+ years working with computers (hardware, Windows, troubleshooting)
 
+Strong hands-on experience with systems, software behavior, and problem analysis.
+Currently transitioning into professional QA roles.
+
 ---
 
 ## 🎯 Objective
-Build strong foundations in:
+Build strong foundations and real-world experience in:
 - Manual Testing
 - Automation Testing (Python)
 - SDLC / STLC
@@ -21,7 +24,7 @@ Build strong foundations in:
 - SQL Validation
 - CI/CD Basics
 
-Actively preparing for junior/entry-level QA roles.
+Actively preparing for junior / entry-level QA positions.
 
 ---
 
@@ -29,41 +32,64 @@ Actively preparing for junior/entry-level QA roles.
 OpenCart Demo Store  
 https://demo.opencart.com/
 
-E-commerce demo platform used for manual testing practice.
+E-commerce demo platform used to practice real QA workflows:
+test design, execution, bug discovery, Jira reporting, and documentation.
 
 ---
 
 ## 📁 Repository Structure
 
-This repository is organized as follows:
+qa-portfolio/
+├── bug-reports/        → Documented defects (manual QA)
+├── detailed-reports/   → Risk analysis and deeper investigations
+├── evidence/           → Screenshots and videos used as proof
+├── jira/               → Jira learning material and project-based documentation
+│   └── projects/
+│       └── project-01-checkout/
+├── test-cases/         → Manual test cases
+├── test-plan/          → Test planning documents
+├── sdlc-stlc/          → SDLC and STLC documentation
+├── project-under-test/ → System overview and context
+└── README.md           → Portfolio overview
 
-- bug-reports/ → Documented defects
-- evidence/ → Screenshots and proof of bugs
-- test-cases/ → Manual test cases
-- test-plan/ → Test planning documents
-- sdlc-stlc/ → SDLC and STLC documentation
-- project-under-test/ → System overview
-- README.md → Project presentation
+---
+
+## 🧪 QA Projects
+
+### Project 01 – Checkout Input Validation
+Complete manual QA project covering:
+- Test case design
+- Bug discovery
+- Jira bug reporting
+- Video evidence
+- Traceability (Test Case → Bug → Evidence)
+
+Jira Bug: SCRUM-5  
+Feature: Checkout – Customer Information  
+Focus: Input validation and negative testing  
+
+Project documentation:
+jira/projects/project-01-checkout/
 
 ---
 
 ## 🐞 Bug Reports
 
 All defects are documented with:
-- Title
-- Environment
 - Preconditions
 - Steps to Reproduce
 - Expected Result
 - Actual Result
 - Severity
 - Priority
-- Evidence
+- Linked Evidence
+- Jira reference (when applicable)
 
-Folder: bug-reports/
+Folder:
+bug-reports/
 
-Examples:
-- Invalid characters in input fields
+Examples include:
+- Invalid characters accepted in input fields
 - Weak email validation
 - Rate limiting issues
 - Input sanitization problems
@@ -72,9 +98,13 @@ Examples:
 
 ## 📸 Evidence
 
-Each reported bug includes screenshots or visual proof.
+Each reported bug includes screenshots or video recordings
+demonstrating step-by-step reproduction.
 
-Folder: evidence/
+Folder:
+evidence/
+
+Evidence is linked directly from bug reports and Jira documentation.
 
 ---
 
@@ -88,7 +118,8 @@ Includes:
 - Exit criteria
 - Test strategy
 
-Folder: test-plan/
+Folder:
+test-plan/
 
 ---
 
@@ -101,8 +132,10 @@ Manual test scenarios covering:
 - Cart management
 - Checkout process
 - Input validation
+- Negative testing
 
-Folder: test-cases/
+Folder:
+test-cases/
 
 ---
 
@@ -114,7 +147,8 @@ Documentation and understanding of:
 - Shift-left testing
 - QA involvement from requirements stage
 
-Folder: sdlc-stlc/
+Folder:
+sdlc-stlc/
 
 ---
 
@@ -126,7 +160,7 @@ Currently learning and practicing:
 - PyTest
 - API Automation (Postman / Requests)
 
-Automation scripts will be added in future updates.
+Automation scripts and frameworks will be added progressively.
 
 ---
 
@@ -145,9 +179,10 @@ Next steps:
 ## 📬 Contact
 
 GitHub: https://github.com/kevintrimboli  
-Email: trimboli.it@gmail.com
+Email: trimboli.it@gmail.com  
 
 ---
 
-This repository documents hands-on QA practice and continuous professional learning.
+This repository documents hands-on QA practice, real bug discovery,
+and continuous professional learning.
 It is updated regularly.
