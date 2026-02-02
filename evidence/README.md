@@ -1,15 +1,17 @@
-# Evidence Repository
+# Evidence Folder
 
-This folder contains screenshots and videos used as proof for reported bugs
-and executed test cases.
+This folder contains screenshots and videos used as proof for reported bugs.
 
-## Project 01 – Checkout Input Validation (SauceDemo)
+Each file is linked in the corresponding bug report.
 
-### P01-BUG-01
-- Jira Issue: SCRUM-5
-- Description: Checkout accepts invalid characters in customer information fields
-- Evidence Type: Video
-- File: P01-BUG-01-checkout-invalid-input-validation.mp4
+Naming format:
+BUG-XX-description.png
 
-The video demonstrates step-by-step reproduction of the issue,
-showing invalid input values being accepted by the system.
+Example:
+BUG-01-invalid-name.png
+BUG-02-rate-limit.png
+BUG-03-slash-name.png
+BUG-04-rate-limit-browsing.png
+
+## Project 01 – Checkout Validation
+- P01-BUG-01-checkout-invalid-input-validation.mp4 (linked to Jira SCRUM-5)
