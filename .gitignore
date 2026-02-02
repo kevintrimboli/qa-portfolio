@@ -1,1 +1,2 @@
-touch .gitignore
+touch .gitignore.DS_Store
+.DS_Store
