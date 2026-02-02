@@ -11,7 +11,7 @@ This represents a risk for business operations and customer trust.
 - Checkout process
 
 ## Related Bugs
-- BUG-06-out-of-stock-checkout.md
+- BUG-06-out-of-stock-cart.md
 - BUG-02-rate-limit-register.md
 
 ## Description
