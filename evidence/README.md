@@ -6,6 +6,7 @@ Each file is referenced from the corresponding bug report and Jira project docum
 ## Naming convention
 - `BUG-XX.png` → OpenCart standalone bug-reports
 - `PXX-BUG-YY-description.(png|mp4)` → Project-based Jira portfolio
+- `API-XXX-01.png` → API testing validation (Postman)
 
 ## Evidence index
 
@@ -26,3 +27,10 @@ Each file is referenced from the corresponding bug report and Jira project docum
 
 ### Project 03 — Sign In Stuck (RealWorld Conduit)
 - P03-BUG-02-signin-stuck-valid-credentials-incognito.mp4 (Jira: SCRUM-9)
+
+### API Testing & Validation (Postman)
+- API-POST-01.png → Successful resource creation (201 Created).
+- API-GET-01.png → Data retrieval validation (200 OK).
+- API-PUT-01.png → Resource update validation (200 OK).
+- API-DELETE-01.png → Resource deletion validation (200 OK).
+- API-BUG-01.png → Evidence of negative price acceptance bug (Critical).

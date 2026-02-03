@@ -17,15 +17,16 @@ Currently transitioning into professional QA roles.
 
 ## ⭐ Portfolio Index (Fast Review)
 
+**Technical & API Testing (Postman):**
+- **API CRUD & Negative Validation:** Manual verification of REST services (GET, POST, PUT, DELETE) and identification of logic flaws (Negative Testing).
+  Docs: `api-testing/` · Evidence: `evidence/API-POST-01.png`, `evidence/API-BUG-01.png`.
+
 **End-to-end projects (Jira → Evidence → Documentation):**
-- **Project 01 — SauceDemo | Checkout Input Validation**  
-  Jira: **SCRUM-5** · Evidence: `evidence/P01-BUG-01-checkout-invalid-input-validation.mp4` · Docs: `jira/projects/project-01-checkout/`
+- **Project 01 — SauceDemo | Checkout Input Validation** Jira: **SCRUM-5** · Evidence: `evidence/P01-BUG-01-checkout-invalid-input-validation.mp4` · Docs: `jira/projects/project-01-checkout/`
 
-- **Project 02 — ExpandTesting | Registration Weak Password**  
-  Jira: **SCRUM-8** · Evidence: `evidence/P02-BUG-01-register-accepts-weak-password.png` · Docs: `jira/projects/project-02-registration/`
+- **Project 02 — ExpandTesting | Registration Weak Password** Jira: **SCRUM-8** · Evidence: `evidence/P02-BUG-01-register-accepts-weak-password.png` · Docs: `jira/projects/project-02-registration/`
 
-- **Project 03 — RealWorld Conduit | Sign In stuck (Incognito)**  
-  Jira: **SCRUM-9** · Evidence: `evidence/P03-BUG-02-signin-stuck-valid-credentials-incognito.mp4` · Docs: `jira/projects/project-03-realworld-auth/`
+- **Project 03 — RealWorld Conduit | Sign In stuck (Incognito)** Jira: **SCRUM-9** · Evidence: `evidence/P03-BUG-02-signin-stuck-valid-credentials-incognito.mp4` · Docs: `jira/projects/project-03-realworld-auth/`
 
 **Standalone bug reports (OpenCart):**
 - 7 defects documented in `bug-reports/` with evidence in `evidence/` (see `bug-reports/README.md`)
@@ -63,6 +64,7 @@ This repository includes manual QA projects across multiple demo applications:
 ---
 
 ## 📁 Repository Structure
+- `api-testing/` → API validation suite using Postman.
 - `bug-reports/` → OpenCart defects (standalone bug reports + index)
 - `detailed-reports/` → deeper investigations / risk analysis
 - `evidence/` → screenshots and videos (proof)
