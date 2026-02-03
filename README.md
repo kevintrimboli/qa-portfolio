@@ -90,14 +90,15 @@
 ## 📁 Repository Structure
 
 
-├── 🤖 automation_selenium/   # Selenium Framework (POM)
-├── ⚡ automation_playwright/ # Playwright Framework (New!)
-├── 📡 api-testing/           # Suite de Postman
-├── 🗄️ database-testing/      # Proyectos SQL
-├── 🐞 bug-reports/           # Defectos OpenCart
-├── 📸 evidence/              # Capturas y videos (Proof)
-├── 🎫 jira/                  # Trazabilidad y tickets
-└── 📘 sdlc-stlc/             # Fundamentos Teóricos
+.
+├── 🤖 automation_selenium/    # Selenium Framework (POM)
+├── ⚡ automation_playwright/  # Playwright Framework (New!)
+├── 📡 api-testing/            # Suite de Postman
+├── 🗄️ database-testing/       # Proyectos SQL
+├── 🐞 bug-reports/            # Defectos OpenCart
+├── 📸 evidence/               # Capturas y videos (Proof)
+├── 🎫 jira/                   # Trazabilidad y tickets
+└── 📘 sdlc-stlc/              # Fundamentos Teóricos
 
 ------------------------------------------------------
 
