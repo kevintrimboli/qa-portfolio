@@ -7,8 +7,13 @@ Each file is referenced from the corresponding bug report and Jira project docum
 - `BUG-XX.png` → OpenCart standalone bug-reports
 - `PXX-BUG-YY-description.(png|mp4)` → Project-based Jira portfolio
 - `API-XXX-01.png` → API testing validation (Postman)
+- `SEL-PROJ-XX-description.mp4` → Selenium Automated Test Execution
 
 ## Evidence index
+
+### 🤖 Automated Testing — Selenium & Python (E2E)
+- **SEL-PROJ-01-basic-checkout.mp4** → Standard E2E flow (Login to Checkout).
+- **SEL-PROJ-02-advanced-cart-logic.mp4** → Advanced logic: Dynamic item addition, removal, and badge validation.
 
 ### OpenCart bug-reports (screenshots)
 - BUG-01.png
