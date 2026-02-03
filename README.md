@@ -89,7 +89,7 @@
 
 ## 📁 Repository Structure
 
-
+```text
 .
 ├── 🤖 automation_selenium/    # Selenium Framework (POM)
 ├── ⚡ automation_playwright/  # Playwright Framework (New!)
@@ -100,11 +100,9 @@
 ├── 🎫 jira/                   # Trazabilidad y tickets
 └── 📘 sdlc-stlc/              # Fundamentos Teóricos
 
-------------------------------------------------------
-
 📬 Contact & Links
-
 GitHub: kevintrimboli
 
 Email: trimboli.it@gmail.com
 
+This repository documents hands-on QA practice, real bug discovery, and continuous professional learning.
