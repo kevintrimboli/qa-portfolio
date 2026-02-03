@@ -1,14 +1,5 @@
-# macOS
-.DS_Store
-
-# Python
-__pycache__/
-*.pyc
-
-# Editor
-.vscode/
-
-# OS / temp
-*.swp
-*.tmp
 venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.DS_Store
