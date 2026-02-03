@@ -100,6 +100,9 @@
 ├── 🎫 jira/                   # Trazabilidad y tickets
 └── 📘 sdlc-stlc/              # Fundamentos Teóricos
 
+-------------------------------------------------------------
+
+
 📬 Contact & Links
 GitHub: kevintrimboli
 
