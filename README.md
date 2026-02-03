@@ -21,6 +21,10 @@ Currently transitioning into professional QA roles.
 - **API CRUD & Negative Validation:** Manual verification of REST services (GET, POST, PUT, DELETE) and identification of logic flaws (Negative Testing).
   Docs: `api-testing/` · Evidence: `evidence/API-POST-01.png`, `evidence/API-BUG-01.png`.
 
+**Database Testing (SQL):**
+- **Data Integrity & Bug Discovery:** 4 projects using SQL to validate business logic, inventory accuracy, and identification of "Orphan Products" via complex queries.
+  Docs: `database-testing/` · Evidence: `evidence/SQL-PROJECT-01.png`, `evidence/SQL-BUG-REPORT.png`.
+
 **End-to-end projects (Jira → Evidence → Documentation):**
 - **Project 01 — SauceDemo | Checkout Input Validation** Jira: **SCRUM-5** · Evidence: `evidence/P01-BUG-01-checkout-invalid-input-validation.mp4` · Docs: `jira/projects/project-01-checkout/`
 
@@ -65,6 +69,7 @@ This repository includes manual QA projects across multiple demo applications:
 
 ## 📁 Repository Structure
 - `api-testing/` → API validation suite using Postman.
+- `database-testing/` → SQL validation and data integrity projects.
 - `bug-reports/` → OpenCart defects (standalone bug reports + index)
 - `detailed-reports/` → deeper investigations / risk analysis
 - `evidence/` → screenshots and videos (proof)
