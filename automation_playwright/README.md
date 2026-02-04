@@ -1,12 +1,14 @@
-# Playwright Automation Suite
+# 🎭 Playwright E2E Automation Framework
 
-## Overview
-This module contains an E2E framework for e-commerce validation using Playwright and Python.
+This repository contains the end-to-end automation suite using **Playwright** and **Pytest**.
 
-## Structure
-- **/pages**: Page Object Model classes.
-- **/tests**: API and E2E test scripts.
-- **/data**: Test data in JSON format.
+## 🏗️ Architecture: Page Object Model (POM)
+The project is structured to ensure maintainability and scalability:
+- **/pages**: Contains page classes with locators and actions.
+- **/tests**: Test scripts organized by feature (e.g., e2e).
+- **/data**: JSON files for data-driven testing.
 
-## Evidence
-- **Execution Video:** [Click here to watch](../evidence/PW-PROJ-01-trace-viewer-e2e.mp4)
+## 🚦 How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run all tests: `pytest`
+3. Generate report: `pytest --html=report.html`

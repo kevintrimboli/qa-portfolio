@@ -35,4 +35,4 @@ High (Blocks site usage)
 P1
 
 ## Evidence
-- /evidence/BUG-04.png
+- [View Evidence Image](../evidence/BUG-04.png)

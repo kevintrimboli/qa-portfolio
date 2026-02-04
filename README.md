@@ -1,50 +1,52 @@
-# QA Automation & Manual Testing Portfolio
+# QA Engineer Portfolio | Manual & Automation
 
-Professional portfolio focused on Software Quality Assurance, featuring End-to-End automation, API testing, and comprehensive manual test documentation.
+Full-stack QA Portfolio covering the complete Software Testing Life Cycle (STLC), from manual strategy to advanced E2E automation.
 
 ---
 
-## 🛠️ Tech Stack
-* **Automation:** Playwright, Selenium (Python), PyTest.
-* **API Testing:** Manual (Markdown validation) & Automated (Playwright).
-* **Database:** SQL (Complex queries & Bug discovery).
-* **Test Management:** Jira, Test Cases, Bug Reporting, SDLC/STLC.
+## 🛠️ Technical Skills & Fundamentals
+- **Core:** STLC/SDLC, Test Planning, Test Case Design, Bug Reporting (Jira).
+- **Automation:** Playwright (Python), Selenium WebDriver (Python), POM Architecture.
+- **Database:** SQL (DQL, Data Integrity, Bug Discovery).
+- **API:** Manual Validation with Postman, Negative Testing.
 
 ---
 
 ## 🤖 Automation Projects
 
-### ⚡ Playwright (Python) - [E-Commerce E2E Framework]
-Full purchase journey automation using an industry-standard architecture.
-* **Architecture:** Page Object Model (POM) & Data-Driven Testing (JSON).
-* **Features:** Automatic Tracing, Headless execution, and Evidence generation.
-* **🎥 Video Demo:** [Watch E2E Execution](evidence/PW-PROJ-01-trace-viewer-e2e.mp4)
-* **💻 Source Code:** [View Scripts](automation_playwright/tests/e2e/test_ecommerce_full.py)
+### ⚡ Playwright (Python) - E2E Mastery
+- **Project:** Full E-commerce purchase journey.
+- **Tools:** Page Object Model, Data-Driven Testing (JSON), Playwright Trace Viewer.
+- **Code:** [E2E Scripts](automation_playwright/tests/e2e/test_ecommerce_full.py)
+- **Execution:** [🎥 Watch Trace/Video](evidence/PW-PROJ-01-trace-viewer-e2e.mp4)
 
-### 🧪 Selenium (Python) - [Advanced Web Automation]
-Regression suite for e-commerce checkout and cart logic.
-* **Project 01:** [Basic Checkout Flow](automation_selenium/project_01_basic_checkout/) - **🎥 Video:** [SEL-PROJ-01](evidence/SEL-PROJ-01-basic-checkout.mp4)
-* **Project 02:** [Advanced Cart Logic](automation_selenium/project_02_advanced_cart/) - **🎥 Video:** [SEL-PROJ-02](evidence/SEL-PROJ-02-advanced-cart-logic.mp4)
+### 🧪 Selenium (Python)
+- **Project 01:** [🎥 Basic Checkout Flow](evidence/SEL-PROJ-01-basic-checkout.mp4)
+- **Project 02:** [🎥 Advanced Cart Logic](evidence/SEL-PROJ-02-advanced-cart-logic.mp4)
 
 ---
 
-## 📝 Manual Testing & QA Strategy
-Comprehensive documentation following the STLC (Software Testing Life Cycle).
-
-* **Test Plan:** [Full Test Strategy](test-plan/test-plan.md)
-* **Test Cases:** [Functional & Non-Functional Cases](test-cases/test-cases.md)
-* **Bug Reports:** [Documented Defects with Evidence](bug-reports/)
-* **Database Testing:** [SQL Bug Discovery Queries](database-testing/project-04-bug-discovery/bug-detection-query.sql)
-
----
-
-## 📊 Visual Evidence & Reports
-* **Bug Evidence Gallery:** [View Screenshots](evidence/)
-* **Detailed Risk Reports:** [Rate Limiting & Logic Issues](detailed-reports/)
-* **Jira Workflows:** [Project Management Documentation](jira/)
+## 📝 Manual Testing & Jira Strategy
+I follow professional STLC standards to ensure software quality through documentation:
+- **Test Strategy:** [Comprehensive Test Plan](manual-testing/test-plan.md)
+- **Jira Documentation:** [Agile Projects & Bug Tracking](jira/)
+- **Detailed Defect Reports:** [Bug Reports Index](bug-reports/)
+- **Risk Analysis:** [Inventory & Rate Limiting Reports](detailed-reports/)
 
 ---
 
-## 📬 Contact
-* **Role:** Junior QA Automation Engineer
-* **Location:** Italy
+## 🗄️ Database Testing (SQL)
+Detecting backend inconsistencies that bypass UI validation:
+- **Inventory Audit:** [SQL-PROJECT-01](evidence/SQL-PROJECT-01.png) | [Script](database-testing/project-01-inventory/inventory_queries.sql)
+- **User Integrity:** [SQL-PROJECT-02](evidence/SQL-PROJECT-02.png) | [Script](database-testing/project-02-users/user_queries.sql)
+- **Bug Discovery:** [Orphan Data Detection](database-testing/project-04-bug-discovery/bug-detection-query.sql)
+
+---
+
+## 📡 API Testing
+- **Manual Validation:** Verification of HTTP methods (GET, POST, PUT, DELETE) via Postman.
+- **Negative Testing:** Discovery of logic flaws (e.g., negative price acceptance).
+- **Documentation:** [API Test Suite](api-testing/api-manual-validation.md)
+
+---
+**Location:** Italy | **Focus:** Junior QA Automation Engineer

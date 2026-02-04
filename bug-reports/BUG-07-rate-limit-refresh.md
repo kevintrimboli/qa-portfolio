@@ -34,4 +34,4 @@ Major (Blocks usage)
 High
 
 ## Evidence
-- /evidence/BUG-07.png
+- [View Evidence Image](../evidence/BUG-07.png)

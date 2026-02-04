@@ -1,1 +1,1 @@
-SELECT user_name, email FROM users WHERE active = 1;
+SELECT CustomerName, Country FROM Customers WHERE Country = 'Mexico' AND City = 'México D.F.';

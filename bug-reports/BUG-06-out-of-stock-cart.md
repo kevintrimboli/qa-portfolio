@@ -33,4 +33,4 @@ Major (Business impact / purchasing flow)
 High
 
 ## Evidence
-- /evidence/BUG-06.png
+- [View Evidence Image](../evidence/BUG-06.png)

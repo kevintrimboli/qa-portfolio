@@ -34,4 +34,4 @@ Medium (Data integrity / potential security surface)
 P2
 
 ## Evidence
-- /evidence/BUG-03.png
+- [View Evidence Image](../evidence/BUG-03.png)

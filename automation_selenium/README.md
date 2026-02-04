@@ -1,3 +1,8 @@
-# 🤖 Selenium Automation Portfolio
-## [01 - Basic](./project_01_basic_checkout) | [02 - Advanced](./project_02_advanced_cart)
-Run all: `PYTHONPATH=. pytest automation_selenium/`
+# 🏎️ Selenium WebDriver Suite
+
+Comprehensive automation suite using Selenium with Python, focusing on cross-browser compatibility.
+
+## 🔧 Features
+- **Dynamic Waits:** Implementation of Explicit Waits to handle asynchronous elements.
+- **Conftest:** Centralized fixture management for browser initialization.
+- **Reporting:** Integration with Pytest for detailed execution logs.

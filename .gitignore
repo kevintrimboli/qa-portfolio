@@ -1,5 +1,8 @@
 venv/
+.venv/
 __pycache__/
 .pytest_cache/
 *.pyc
+automation_selenium/report.html
+automation_playwright/test-results/
 .DS_Store

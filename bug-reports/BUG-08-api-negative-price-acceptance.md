@@ -28,4 +28,4 @@ Critical (Business Logic)
 High (P1)
 
 ## Evidence
-- Evidence File: `evidence/API-BUG-01.png`
+- [View API Evidence](../evidence/API-BUG-01.png)

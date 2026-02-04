@@ -33,4 +33,4 @@ Medium (Data quality / abuse risk)
 P2
 
 ## Evidence
-- /evidence/BUG-05.png
+- [View Evidence Image](../evidence/BUG-05.png)

@@ -35,4 +35,4 @@ High (Blocks user flow)
 P1
 
 ## Evidence
-- /evidence/BUG-02.png
+- [View Evidence Image](../evidence/BUG-02.png)

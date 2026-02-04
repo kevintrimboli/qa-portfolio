@@ -1,1 +1,4 @@
-{}
+{
+  "standard_user": { "user": "standard_user", "pass": "secret_sauce" },
+  "problem_user": { "user": "problem_user", "pass": "secret_sauce" }
+}

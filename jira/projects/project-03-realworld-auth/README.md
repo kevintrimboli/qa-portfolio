@@ -1,21 +1,11 @@
 # Project 03 — RealWorld (Conduit) Authentication
 
-This project documents a real authentication issue discovered during exploratory testing.
+Investigación de un fallo crítico en el proceso de autenticación en modo incógnito.
 
-## Application under test
-- RealWorld Conduit (React + Redux)
-- https://react-redux.realworld.io/
+## 🐞 Bug Report Asociado
+- **SCRUM-9** — Sign in button stuck with valid credentials.
+- **Evidencia:** [Ver Video de Reproducción](../../../evidence/P03-BUG-02-signin-stuck-valid-credentials-incognito.mp4)
 
-## Scope
-- Sign in flow
-- UI feedback during authentication
-- Incognito mode behavior
-
-## Bug Covered
-- P03-BUG-02 — Sign in button stuck with valid credentials (SCRUM-9)
-
-## Evidence
-- ../../../evidence/P03-BUG-02-signin-stuck-valid-credentials-incognito.mp4
-
-Note:
-Jira tickets are hosted in a private Jira instance, as in real company environments.
+## 📂 Documentación
+- [Casos de Prueba](./test-cases.md)
+- [Listado de Bugs](./bugs.md)

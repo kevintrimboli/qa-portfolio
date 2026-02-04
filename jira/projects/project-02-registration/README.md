@@ -1,15 +1,11 @@
 # Project 02 — Registration Validation (ExpandTesting)
 
-This project documents manual QA testing focused on registration form validation,
-bug discovery, Jira reporting, and portfolio documentation.
+Este proyecto documenta el flujo de QA manual centrado en la validación de formularios de registro.
 
-## Application under test
-- Practice ExpandTesting
-- URL: https://practice.expandtesting.com/register
-- Feature: User Registration
+## 🐞 Bug Report Asociado
+- **SCRUM-8** — Weak password accepted during registration.
+- **Evidencia:** [Ver Captura de Pantalla](../../../evidence/P02-BUG-01-register-accepts-weak-password.png)
 
-## Bugs covered
-- P02-BUG-01 — Weak password accepted during registration (SCRUM-8)
-
-## Evidence
-- ../../../evidence/P02-BUG-01-register-accepts-weak-password.png
+## 📂 Documentación
+- [Casos de Prueba](./test-cases.md)
+- [Listado de Bugs](./bugs.md)

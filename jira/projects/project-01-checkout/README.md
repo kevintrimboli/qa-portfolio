@@ -1,25 +1,11 @@
 # Project 01 – Checkout Input Validation
 
-This project documents a complete manual QA workflow:
-test design, execution, bug discovery, Jira reporting, and portfolio documentation.
+Validación técnica de los campos de entrada en el flujo de checkout de SauceDemo.
 
-## Application under test
-- SauceDemo
-- Feature: Checkout – Your Information
+## 🐞 Bugs Asociados
+- **SCRUM-5** — Zip code field validation issues.
+- **Evidencia:** [Ver Video de Ejecución](../../../evidence/SEL-PROJ-01-basic-checkout.mp4)
 
-## Objective
-Validate that customer information fields properly handle invalid input
-and prevent incorrect data from being submitted.
-
-## Scope
-- First Name validation
-- Last Name validation
-- Postal Code validation
-- Negative testing
-- User feedback and error handling
-
-## Tools & Artifacts
-- Jira (Bug tracking): SCRUM-5
-- Manual testing
-- Video evidence
-- GitHub documentation
+## 📂 Documentación
+- [Casos de Prueba](./test-cases.md)
+- [Listado de Bugs](./bugs.md)

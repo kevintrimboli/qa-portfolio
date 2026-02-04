@@ -1,4 +1,3 @@
-import time
 from automation_selenium.project_01_basic_checkout.pages.login_page import LoginPage
 from automation_selenium.project_01_basic_checkout.pages.inventory_page import InventoryPage
 from automation_selenium.project_01_basic_checkout.pages.checkout_page import CheckoutPage

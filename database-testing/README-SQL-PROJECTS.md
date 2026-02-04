@@ -1,26 +1,26 @@
-# SQL QA Manual Projects
+# 🗄️ SQL QA & Database Testing
 
-## Project 01: Inventory Validation
-- **Scenario:** Filter products with Price > 50 to verify premium catalog.
-- **Query:** SELECT ProductName, Price, Unit FROM Products WHERE Price > 50;
-- **Evidence:** [evidence/SQL-PROJECT-01.png](../evidence/SQL-PROJECT-01.png)
+Este módulo demuestra mi capacidad para validar la integridad de los datos, realizar pruebas de regresión en la DB y detectar errores de lógica de negocio mediante consultas complejas.
 
-## Project 02: User Data Integrity
-- **Scenario:** Validate customer segmentation by Country (Mexico).
-- **Query:** SELECT CustomerName, ContactName, City, Country FROM Customers WHERE Country = 'Mexico';
-- **Evidence:** [evidence/SQL-PROJECT-02.png](../evidence/SQL-PROJECT-02.png)
+## 📊 Proyectos de Validación
+1. [**Inventory Validation**](./project-01-inventory/) - Control de stock y filtrado de catálogo premium.
+2. [**User Data Integrity**](./project-02-users/) - Verificación de segmentación geográfica y registros.
+3. [**Order Business Logic**](./project-03-orders/) - Auditoría de transacciones cronológicas.
 
-## Project 03: Order Business Logic
-- **Scenario:** Verify chronological order of transactions.
-- **Query:** SELECT OrderID, CustomerID, OrderDate FROM Orders ORDER BY OrderDate DESC;
-- **Evidence:** [evidence/SQL-PROJECT-03.png](../evidence/SQL-PROJECT-03.png)
+---
 
-## 🐞 Project 04: SQL Bug Discovery (Data Integrity)
-- **Scenario:** Identification of "Orphan Products" (Products without a valid Category).
-- **Bug Found:** Found products that exist in the database but are hidden from the UI because their CategoryID is null or invalid.
-- **Query:** ```sql
-  SELECT ProductName, CategoryID FROM Products 
-  WHERE CategoryID IS NULL;
-  ```
-- **Evidence:** [evidence/SQL-BUG-REPORT.png](../evidence/SQL-BUG-REPORT.png)
-- **Severity:** High (Impacts sales as products are not reachable by customers).
+## 🐞 Caso de Éxito: Detección de Bug mediante SQL
+### Bug: "Orphan Products" (Integridad de Datos)
+- **Escenario:** Productos que existen en la tabla `Products` pero no tienen una categoría válida o asignada.
+- **Impacto:** Estos productos son "invisibles" en el Frontend, resultando en pérdida de ingresos.
+- **Consulta de Detección:**
+```sql
+SELECT ProductName, CategoryID 
+FROM Products 
+WHERE CategoryID NOT IN (SELECT CategoryID FROM Categories)
+OR CategoryID IS NULL;
+```
+- **Evidencia:** [Ver Captura de Resultado](../evidence/SQL-BUG-REPORT.png)
+
+---
+*Herramientas utilizadas: SQL (MySQL/PostgreSQL compatible), W3Schools Test Environment.*
