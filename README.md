@@ -1,52 +1,64 @@
-# QA Engineer Portfolio | Manual & Automation
+# Kevin Trimboli | QA Automation Engineer
 
-Full-stack QA Portfolio covering the complete Software Testing Life Cycle (STLC), from manual strategy to advanced E2E automation.
+**Email:** trimboli.it@gmail.com  
+**Location:** Italy 🇮🇹  
+**Languages:** Spanish (Native), English (Professional Working Proficiency), Italian (Learning)
 
 ---
 
-## 🛠️ Technical Skills & Fundamentals
-- **Core:** STLC/SDLC, Test Planning, Test Case Design, Bug Reporting (Jira).
-- **Automation:** Playwright (Python), Selenium WebDriver (Python), POM Architecture.
-- **Database:** SQL (DQL, Data Integrity, Bug Discovery).
-- **API:** Manual Validation with Postman, Negative Testing.
+## 🛠️ Professional Summary
+QA Engineer focused on the full Software Testing Life Cycle (STLC). Experienced in manual strategy, database integrity, and building automated E2E frameworks from scratch using Python.
+
+---
+
+## 🚀 Technical Skills
+
+### Manual Testing & Strategy
+* **Test Documentation:** Test Plans, Test Scenarios, and Test Case Design.
+* **Bug Tracking:** Professional defect reporting using Jira.
+* **Methodologies:** Agile (Scrum), SDLC, and STLC standards.
+
+### Automation Testing (Python)
+* **Playwright:** Advanced E2E testing, Page Object Model (POM), and Trace Viewer analysis.
+* **Selenium WebDriver:** Automated functional testing and complex web element handling.
+* **Frameworks:** Pytest for scalable test suite execution.
+
+### Database & API Testing
+* **SQL:** Backend validation, data integrity audits, and orphan data detection.
+* **API Testing:** Manual validation of RESTful services (GET, POST, PUT, DELETE) via Postman.
+* **Negative Testing:** Identifying logic flaws and edge cases.
 
 ---
 
 ## 🤖 Automation Projects
 
-### ⚡ Playwright (Python) - E2E Mastery
-- **Project:** Full E-commerce purchase journey.
-- **Tools:** Page Object Model, Data-Driven Testing (JSON), Playwright Trace Viewer.
-- **Code:** [E2E Scripts](automation_playwright/tests/e2e/test_ecommerce_full.py)
-- **Execution:** [🎥 Watch Trace/Video](evidence/PW-PROJ-01-trace-viewer-e2e.mp4)
+### Playwright - E-commerce E2E Suite
+Full purchase flow automation including login, product search, and checkout.
+* **Files:** [View Python Scripts](automation_playwright/tests/e2e/test_ecommerce_full.py)
+* **Evidence:** [🎥 Watch Execution Video](evidence/PW-PROJ-01-trace-viewer-e2e.mp4)
 
-### 🧪 Selenium (Python)
-- **Project 01:** [🎥 Basic Checkout Flow](evidence/SEL-PROJ-01-basic-checkout.mp4)
-- **Project 02:** [🎥 Advanced Cart Logic](evidence/SEL-PROJ-02-advanced-cart-logic.mp4)
+### Selenium - Web Automation
+Functional testing for cart logic and checkout processes.
+* **Project 1:** [🎥 Basic Checkout Video](evidence/SEL-PROJ-01-basic-checkout.mp4)
+* **Project 2:** [🎥 Advanced Cart Video](evidence/SEL-PROJ-02-advanced-cart-logic.mp4)
 
 ---
 
-## 📝 Manual Testing & Jira Strategy
-I follow professional STLC standards to ensure software quality through documentation:
-- **Test Strategy:** [Comprehensive Test Plan](manual-testing/test-plan.md)
-- **Jira Documentation:** [Agile Projects & Bug Tracking](jira/)
-- **Detailed Defect Reports:** [Bug Reports Index](bug-reports/)
-- **Risk Analysis:** [Inventory & Rate Limiting Reports](detailed-reports/)
+## 📝 Manual Testing & Jira
+* **Test Planning:** [Complete Strategy & Scope](manual-testing/test-plan.md)
+* **Defect Log:** [Bug Reports Index](bug-reports/)
+* **Jira Documentation:** [Traceability Matrix & Project Management](jira/)
+* **Advanced Analysis:** [Risk Assessment Reports](detailed-reports/)
 
 ---
 
 ## 🗄️ Database Testing (SQL)
-Detecting backend inconsistencies that bypass UI validation:
-- **Inventory Audit:** [SQL-PROJECT-01](evidence/SQL-PROJECT-01.png) | [Script](database-testing/project-01-inventory/inventory_queries.sql)
-- **User Integrity:** [SQL-PROJECT-02](evidence/SQL-PROJECT-02.png) | [Script](database-testing/project-02-users/user_queries.sql)
-- **Bug Discovery:** [Orphan Data Detection](database-testing/project-04-bug-discovery/bug-detection-query.sql)
+Backend audits using SQL queries to ensure data consistency:
+* **Inventory Audit:** [View Results](evidence/SQL-PROJECT-01.png) | [SQL Script](database-testing/project-01-inventory/inventory_queries.sql)
+* **User Data Integrity:** [View Results](evidence/SQL-PROJECT-02.png) | [SQL Script](database-testing/project-02-users/user_queries.sql)
 
 ---
 
 ## 📡 API Testing
-- **Manual Validation:** Verification of HTTP methods (GET, POST, PUT, DELETE) via Postman.
-- **Negative Testing:** Discovery of logic flaws (e.g., negative price acceptance).
-- **Documentation:** [API Test Suite](api-testing/api-manual-validation.md)
-
----
-**Location:** Italy | **Focus:** Junior QA Automation Engineer
+* **Manual Suite:** [Postman Validation Report](api-testing/api-manual-validation.md)
+* **Negative Testing:** Logic flaws detection (e.g., negative price acceptance).
