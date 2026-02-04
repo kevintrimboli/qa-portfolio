@@ -1,118 +1,50 @@
-# 🚀 QA PORTFOLIO — KEVIN TRIMBOLI
-### **Manual & Automation QA Engineer**
+# QA Automation & Manual Testing Portfolio
+
+Professional portfolio focused on Software Quality Assurance, featuring End-to-End automation, API testing, and comprehensive manual test documentation.
 
 ---
 
-## 👤 Profile
-
-**Name:** Kevin Trimboli
-
-**Role:** Junior QA Engineer (Manual & Automation)
-
-**Location:** 📍 Italy (EU)
-
-**Background:** 💻 20+ years of IT experience (Hardware, Windows, Troubleshooting).
-
----
-
-## 🗣️ Languages
-
-* **Español:** Nativo 🇪🇸
-
-* **English:** Fluent (Professional working proficiency) 🇬🇧
-
-* **Italiano:** Base (A1/A2 - Learning) 🇮🇹
+## 🛠️ Tech Stack
+* **Automation:** Playwright, Selenium (Python), PyTest.
+* **API Testing:** Manual (Markdown validation) & Automated (Playwright).
+* **Database:** SQL (Complex queries & Bug discovery).
+* **Test Management:** Jira, Test Cases, Bug Reporting, SDLC/STLC.
 
 ---
 
 ## 🤖 Automation Projects
 
-### 🧪 Selenium (Python)
-> Proyectos de automatización E2E funcionales utilizando el patrón de diseño **POM (Page Object Model)**.
+### ⚡ Playwright (Python) - [E-Commerce E2E Framework]
+Full purchase journey automation using an industry-standard architecture.
+* **Architecture:** Page Object Model (POM) & Data-Driven Testing (JSON).
+* **Features:** Automatic Tracing, Headless execution, and Evidence generation.
+* **🎥 Video Demo:** [Watch E2E Execution](evidence/PW-PROJ-01-trace-viewer-e2e.mp4)
+* **💻 Source Code:** [View Scripts](automation_playwright/tests/e2e/test_ecommerce_full.py)
 
-* **Framework:** `Python` + `Selenium` + `PyTest`
-
-* **Project 01:** **Basic Checkout Flow** – Compra completa en *SauceDemo*.
-
-* **Project 02:** **Advanced Cart Logic** – Gestión de inventario y validación de badges.
-
-* **📁 Evidence:** `SEL-PROJ-01-basic-checkout.mp4` · `SEL-PROJ-02-advanced-cart-logic.mp4`
-
----
-
-### ⚡ Playwright (Python) — [NEW]
-> Modern Web Automation con enfoque en velocidad y estabilidad.
-
-* **Status:** In Progress / Expanding 🚀
-
-* **Stack:** `Playwright` + `Asyncio` + `PyTest`
-
-* **Focus:** API-injected login flows and auto-waiting logic.
-
-* **📁 Folder:** `automation_playwright/`
+### 🧪 Selenium (Python) - [Advanced Web Automation]
+Regression suite for e-commerce checkout and cart logic.
+* **Project 01:** [Basic Checkout Flow](automation_selenium/project_01_basic_checkout/) - **🎥 Video:** [SEL-PROJ-01](evidence/SEL-PROJ-01-basic-checkout.mp4)
+* **Project 02:** [Advanced Cart Logic](automation_selenium/project_02_advanced_cart/) - **🎥 Video:** [SEL-PROJ-02](evidence/SEL-PROJ-02-advanced-cart-logic.mp4)
 
 ---
 
-## ⭐ Portfolio Index (Fast Review)
+## 📝 Manual Testing & QA Strategy
+Comprehensive documentation following the STLC (Software Testing Life Cycle).
 
-### 📡 Technical & API Testing (Postman)
-> Manual verification of REST services and identification of logic flaws.
-
-* **Verifications:** GET, POST, PUT, DELETE & Negative Testing.
-
-* **📁 Docs:** `api-testing/`
-
----
-
-### 🗄️ Database Testing (SQL)
-> Validaciones de integridad de datos y descubrimiento de errores de negocio.
-
-* **Verifications:** Inventory accuracy & "Orphan Products" detection.
-
-* **📁 Docs:** `database-testing/`
+* **Test Plan:** [Full Test Strategy](test-plan/test-plan.md)
+* **Test Cases:** [Functional & Non-Functional Cases](test-cases/test-cases.md)
+* **Bug Reports:** [Documented Defects with Evidence](bug-reports/)
+* **Database Testing:** [SQL Bug Discovery Queries](database-testing/project-04-bug-discovery/bug-detection-query.sql)
 
 ---
 
-## 🏗️ End-to-End Projects (Full Traceability)
-**Integración total: Jira → Evidence → Documentation**
-
-1. **Project 01 — SauceDemo | Checkout Validation**
-   * 🏷️ **Jira:** `SCRUM-5` · 📄 **Docs:** `jira/projects/project-01-checkout/`
-
-2. **Project 02 — ExpandTesting | Form Validation**
-   * 🏷️ **Jira:** `SCRUM-8` · 📄 **Docs:** `jira/projects/project-02-registration/`
-
-3. **Project 03 — RealWorld Conduit | Auth Testing**
-   * 🏷️ **Jira:** `SCRUM-9` · 📄 **Docs:** `jira/projects/project-03-realworld-auth/`
+## 📊 Visual Evidence & Reports
+* **Bug Evidence Gallery:** [View Screenshots](evidence/)
+* **Detailed Risk Reports:** [Rate Limiting & Logic Issues](detailed-reports/)
+* **Jira Workflows:** [Project Management Documentation](jira/)
 
 ---
 
-## 📁 Repository Structure
-
-* 🤖 **automation_selenium/** — Selenium Framework (POM)
-
-* ⚡ **automation_playwright/** — Playwright Framework (New!)
-
-* 📡 **api-testing/** — Suite de Postman
-
-* 🗄️ **database-testing/** — Proyectos SQL
-
-* 🐞 **bug-reports/** — Defectos OpenCart
-
-* 📸 **evidence/** — Capturas y videos (Proof)
-
-* 🎫 **jira/** — Trazabilidad y tickets
-
-* 📘 **sdlc-stlc/** — Fundamentos Teóricos
-
----
-
-## 📬 Contact & Links
-
-* **GitHub:** [kevintrimboli](https://github.com/kevintrimboli)
-
-* **Email:** [trimboli.it@gmail.com](mailto:trimboli.it@gmail.com)
-
----
-
-> *This repository documents hands-on QA practice, real bug discovery, and continuous professional learning.*
+## 📬 Contact
+* **Role:** Junior QA Automation Engineer
+* **Location:** Italy
